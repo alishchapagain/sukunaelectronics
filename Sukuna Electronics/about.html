@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products-Electronic Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/Logo (1).png"width="170px"></a>
+             </div>
+             <nav>
+                  <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                   </ul>
+             </nav>
+                    
+                    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+                 </div>
+                </div>
+
+                <div class="about">
+                        <div class="col-7">
+                            <h4>Welcome to Sukuna Electrnonis</h4>
+                           <p>Certainly! "Sukuna Electronics" is your go-to destination for all your electronic component needs. We offer a diverse and high-quality selection of components, from resistors and capacitors to microcontrollers and sensors, catering to hobbyists, engineers, and businesses alike. At Sukuna Electronics, we prioritize authenticity, ensuring that all our products meet industry standards. Our user-friendly online platform provides convenience and ease of navigation, making it effortless for you to find the components you require for your projects. With competitive pricing, swift shipping options, and excellent customer service, Sukuna Electronics is committed to supporting your electronic endeavors and innovation. Explore our store and embark on your electronic journey with confidence!</p>
+                        </div>
+                        <div class="col-7">
+                            <img src="images/Ar-project1.png" width="350px">
+                            </div>
+                </div>
+                    
+                    <div class="who">
+                        <div class="col-7">
+                            <h4>Who We Are-</h4>
+                            <p>We are the learning students of Sukuna Secondary School,Sundarharaincha-10,Morang(Nepal).We made this webpage as a final year project of Grade-12.This is a group project and our group consists of four members</p>
+                            <h4>About Our Project</h4>
+
+                            <p>This project is given by our computer teacher Er.Sujan Shrestha. It is given to us due to our growing interest om learning web designing. This project helps us alot to learn web designing. We didn't expect that we can create such a big level project in this learning stage.but we did it. Our joy is limitless. We all really love web designing and we will always continue it in future too.</p>
+                        </div>
+                        </div>
+
+                        <!--Team Members-->
+                        <div class="small-container0">
+                            <h3 style="text-align: center; color: #ff971d; font-style: italic;">Our Group Members</h3>
+<div class="row9">
+    <div class="col-8">
+    <img src="images/Alish.jpg"></a>
+       <h4>Alish Chapagain</h4>
+    </div>
+    <div class="col-8">
+        <img src="images/Anish.jpg">
+        <h4>Anish Giri</h4>
+     </div>
+     <div class="col-8">
+        <img src="images/Ashish .jpg">
+        <h4>Ashish Dhakal</h4>
+     </div>
+     <div class="col-8">
+        <img src="images/Asal.jpg">
+        <h4>Asal Subedi</h4>
+     </div>
+</div>
+
+<H1 style="text-align: center;">THANK YOU!!!</H1>
+
+<!--js for toggle menu-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if (MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px"
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+
+
+</body>
+</html>
