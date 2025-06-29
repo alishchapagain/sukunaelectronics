@@ -1,0 +1,9 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Hide .html extensions
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# Redirect specific custom URLs to the actual HTML file
+RewriteRule ^sukuna-Store/account/Alish/?$ /account.html [L]
